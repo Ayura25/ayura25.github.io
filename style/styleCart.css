@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap");
+
+body {
+  background-color: rgb(217, 222, 228);
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+}
+
+/* awal style navbar */
+.form-control {
+  font-size: 15px;
+}
+@media screen and (min-width: 994px) {
+  .form-control {
+    width: 350px;
+  }
+  .btn {
+    width: auto;
+  }
+}
+.navbar-nav {
+  font-weight: bold;
+}
+@media screen and (max-width: 994px) {
+  .navbar-nav {
+    text-align: center;
+  }
+}
+.nav-item:hover {
+  color: white;
+}
+.nav-shop {
+  z-index: var(--z-fixed);
+  color: var(--text-color);
+  font-weight: var(--font-medium);
+  font-size: 1.3rem;
+}
+.fas:hover {
+  transition: 0.2;
+  color: white;
+}
+/* akhir style navbar */
+
+/* Style produk */
+.judul-produk {
+  background-color: #96d8f1;
+  padding: 5px 10px;
+}
+.card-text {
+  text-align: justify;
+}
+.judul-nama {
+  text-align: center;
+  color: rgb(9, 211, 70);
+}
+/* Tutup produk */
+
+/* style produk terlaris */
+.content {
+  background-color: #96d8f1;
+}
+.judul-cart {
+  background-color: #96d8f1;
+  padding: 5px 10px;
+}
+.card:hover {
+  border: 3px solid #000000;
+}
+.icon-bintang {
+  color: orange;
+}
+/* tutup style produk terlaris */
+
+/* style footer */
+
+/* akhir style footer */

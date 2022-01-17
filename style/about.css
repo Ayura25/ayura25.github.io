@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap");
+
+body {
+  background-color: rgb(217, 222, 228);
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+}
+
+/* navbar style */
+.form-control {
+  font-size: 15px;
+}
+@media screen and (min-width: 994px) {
+  .form-control {
+    width: 350px;
+  }
+  .btn {
+    width: auto;
+  }
+}
+.navbar-nav {
+  font-weight: bold;
+}
+@media screen and (max-width: 994px) {
+  .navbar-nav {
+    text-align: center;
+  }
+}
+.nav-shop {
+  z-index: var(--z-fixed);
+  color: var(--text-color);
+  font-weight: var(--font-medium);
+  font-size: 1.3rem;
+}
+.fas:hover {
+  transition: 0.2;
+  color: white;
+}
+/* akhir style navbar */
+
+/* Style judul */
+.judul {
+  font-size: 80px;
+  background-color: #96d8f1;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+.des {
+  font-size: 30px;
+  background-color: white;
+  padding: 15px 20px;
+}
+
+/* Tutup judul */
+/* Style about */
+.content {
+  background-color: white;
+}
+.list-group {
+  font-size: 18px;
+}
+.card-link {
+  text-decoration: none;
+  color: black;
+}
+/* Tutup about */
